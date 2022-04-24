@@ -1,0 +1,50 @@
+<nav class="navbar navbar-expand-sm navbar-light bg-primary" id="myNavbar">
+<a href="#" class="navbar-brand"><img src="../assets/img/logo.png" width="30"> Sistema Inventario</a>
+ <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+  <span class="navbar-toggler-icon"></span>
+ </button>
+
+ <div class="collapse navbar-collapse" id="mainNav">
+
+ <ul class="navbar-nav">
+
+   <li class="nav-item px-4 nav-item-home">
+    <a href="#" class="nav-link" onclick="cargarHome()">
+      <img src="../assets/img/icons/home_icon.png" width="23">
+      <span class="sr-only">(current)</span></a>
+   </li>
+</ul>
+
+<ul class="navbar-nav ml-auto">
+
+<li class="nav-item px-4 nav-item-alumnos">
+    <a href="#" class="nav-link" onclick="cargarCarreras('cursado',3)">
+      Gestionar Alumnos
+      <span class="sr-only">(current)</span></a>
+</li>
+
+<li class="nav-item px-4 nav-item-regularidades">
+    <a href="#" class="nav-link" onclick="cargarCarreras('regularidades',3)">
+      Gestionar Regularidades
+      <span class="sr-only">(current)</span></a>
+</li>
+
+<li class="nav-item px-4 nav-item-examenes">
+    <a href="#" class="nav-link" onclick="cargarCarreras('examenes',3)">
+      Gestionar Ex&aacute;menes
+      <span class="sr-only">(current)</span></a>
+</li>
+
+
+<li class="nav-item px-4 dropdown">
+      <a class="nav-link dropdown-toggle text-white" href="#" id="servicesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <img src="../assets/img/icons/user_icon.png" width="22">
+      </a>
+      <div class="dropdown-menu dropdown-menu-right bg-info" aria-labelledby="servicesDropdown">
+       <a class="dropdown-item" href="Logout.php">Salir</a>
+   </div>
+ </li>
+</ul>
+
+ </div>
+</nav>
